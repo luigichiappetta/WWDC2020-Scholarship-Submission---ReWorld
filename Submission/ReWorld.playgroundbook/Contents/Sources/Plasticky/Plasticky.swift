@@ -2,12 +2,12 @@ import PlaygroundSupport
 import UIKit
 import AVFoundation
 
-public class Plasticky: CALayer {
+class Plasticky: CALayer {
     
     // MARK: Sounds
-    public var music: AVAudioPlayer?
+    var music: AVAudioPlayer?
     
-    public func playMusic() {
+    func playMusic() {
         let musicURL = URL(fileURLWithPath: Bundle.main.path(forResource: "plastic-bottle-crush", ofType: "mp3")!)
         if let audioPlayer = try? AVAudioPlayer(contentsOf: musicURL) {
             music = audioPlayer
@@ -18,13 +18,13 @@ public class Plasticky: CALayer {
         }
     }
     
-    public func pauseMusic() {
+    func pauseMusic() {
         music?.pause()
     }
     
     // MARK: Move. Each enum case represents a move that Plasticky can perform.
     
-    public enum Move {
+    enum Move {
         case leftArmUp
         case leftArmDown
         case rightArmUp
@@ -202,7 +202,7 @@ public class Plasticky: CALayer {
     
     //MARK: Demo mode
     var demoMode = false
-    public func runDemoMode() {
+    func runDemoMode() {
         doMove(.fabulize)
         demoMode = true
         performDemoDance()
@@ -227,7 +227,7 @@ public class Plasticky: CALayer {
     }
     
     // MARK: Yes mode
-    public func runYesMode() {
+    func runYesMode() {
         doMoves([
             .rightArmUp,
             .leftArmUp,
@@ -236,7 +236,7 @@ public class Plasticky: CALayer {
     }
     
     // MARK: No Mode
-    public func runNoMode() {
+    func runNoMode() {
         doMoves([
             .rightArmDown,
             .leftArmDown,

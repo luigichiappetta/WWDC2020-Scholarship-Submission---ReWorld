@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class GetReworldViewController: LiveViewController {
+class GetReworldViewController: LiveViewController {
     
     @IBOutlet weak var plastickyView: UIView!
     var bot: Plasticky?
@@ -26,15 +26,15 @@ public class GetReworldViewController: LiveViewController {
         plastickyView.layer.addSublayer(bot!)
     }
     
-    public func startPlasticRecycling() {
+    func startPlasticRecycling() {
         // TODO LATER
     }
         
-    public func runPlastickyYesMode() {
+    func runPlastickyYesMode() {
         bot?.runYesMode()
     }
 
-    public func runPlastickyNoMode() {
+    func runPlastickyNoMode() {
         bot?.runNoMode()
     }
 

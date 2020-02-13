@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class IntroductionViewController: LiveViewController {
+class IntroductionViewController: LiveViewController {
     
     @IBOutlet weak var plastickyView: UIView!
     var bot: Plasticky?
@@ -20,7 +20,7 @@ public class IntroductionViewController: LiveViewController {
         plastickyView.layer.addSublayer(bot!)
     }
     
-    public func runPlastickyDemoMode() {
+    func runPlastickyDemoMode() {
         bot?.runDemoMode()
     }
     

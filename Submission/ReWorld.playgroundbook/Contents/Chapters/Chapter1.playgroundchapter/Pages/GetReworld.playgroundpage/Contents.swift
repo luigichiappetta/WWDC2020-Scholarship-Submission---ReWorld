@@ -10,7 +10,7 @@
  
  This is the first minigame, engage and good luck! And after putting everything at its place, move on to the next page!
  
- */
+*/
 
 //#-hidden-code
 
