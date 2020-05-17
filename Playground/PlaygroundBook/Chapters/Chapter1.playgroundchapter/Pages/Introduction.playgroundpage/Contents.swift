@@ -26,8 +26,8 @@ runPlastickyDemoMode()
 
 /*:
 
-His name is **Plasticky**. On the next page you will find the first minigame. In this minigame you will have to choose where to put the objects down. In the center you will find Plasticky, the robot that will ask you where to put the various objects.
-While on the last page you will find the second and, precisely, last, minigame. Here you will have to choose the appropriate object that can replace the various plastic objects listed. I hope you have fun and that you can learn how to save the world from plastic.
+His name is ** Plasticky **. On the next page you will find the first minigame. In this minigame you will have to choose where to place the objects. In the center you will find Plasticky, the robot that will ask you where to place the various objects.
+While on the last page you will find the second and, precisely, the last minigame. Here you will have to choose where the various plastic items listed are to be thrown away. For proper separate collection. (Be careful, try to imitate this recycling in real life, don't throw garbage into the sea!) I hope you enjoy it and that you can learn to save the world from plastic.
  
 [This is the next page](@next)
 */

@@ -12,7 +12,7 @@ public class IntroductionViewController: LiveViewController {
     @IBOutlet weak var plastickyView: UIView!
     var bot: Plasticky?
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         
         bot = Plasticky(frame: plastickyView.frame)

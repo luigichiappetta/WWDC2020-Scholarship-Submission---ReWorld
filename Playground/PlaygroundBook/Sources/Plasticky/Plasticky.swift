@@ -1,4 +1,3 @@
-import PlaygroundSupport
 import UIKit
 import AVFoundation
 
@@ -374,7 +373,7 @@ extension Plasticky {
 // MARK: CAAnimationDelegate
 
 extension Plasticky: CAAnimationDelegate {
-    func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
+    public func animationDidStop(_ anim: CAAnimation, finished flag: Bool) {
         doNextMove()
     }
 }

@@ -18,7 +18,7 @@ public class GetReworldViewController: LiveViewController {
     @IBOutlet weak var trashBinView: UIView!
     @IBOutlet weak var objectView: UIView!
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         
         bot = Plasticky(frame: plastickyView.frame)
